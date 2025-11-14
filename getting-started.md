@@ -8,6 +8,7 @@ Tools covered:
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) and recommended plugins
 - [aws-vault](https://github.com/99designs/aws-vault) (for secure AWS Identity Center / SSO login)
 - [tfenv](https://github.com/tfutils/tfenv) (Terraform version manager)
+- [terragrunt](https://github.com/gruntwork-io/terragrunt) (multi-environment Terraform workflows)
 
 ## oh-my-zsh
 
@@ -109,4 +110,12 @@ brew install tfenv
 ```bash
 tfenv install 1.13.5
 tfenv use 1.13.5
+```
+
+## Terragrunt
+
+### Install
+
+```bash
+brew install terragrunt
 ```
